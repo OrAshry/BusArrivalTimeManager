@@ -1,65 +1,72 @@
 # Bus Arrival Time Manager
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/OrAshry/BusArrivalTimeManager)
-![Version](https://img.shields.io/badge/version-v1.1-blue)
 
-A Java project for managing bus arrivals and times, including passenger tracking, time comparison, and event handling.
+**Bus Arrival Time Manager** is a Java-based system designed for managing transportation schedules, including passenger tracking, time comparison, and dynamic event handling.
 
----
-
-## 📂 Features
-
-- Manage and track multiple bus arrivals.
-- Compare times between buses to find scheduling conflicts.
-- Handle events related to bus arrivals dynamically.
-- Input validation and error handling.
-- Organized project structure with modular Java classes.
+This project was developed as part of my academic coursework to strengthen my understanding of object-oriented programming, modular class structures, and algorithmic logic.
 
 ---
 
-## 🚀 How to Run
+## Background
 
-1. Make sure you have **Java 8** or later installed.
-2. Clone the repository and navigate into the project folder:
+Building this project was a practical application of Java during my studies at the Open University of Israel. It focuses on solving real-world scheduling challenges by implementing rigorous input validation and error handling to manage bus arrivals and conflicts effectively.
 
-```bash
-git clone https://github.com/OrAshry/BusArrivalTimeManager.git
-cd BusArrivalTimeManager
-```
-
-Compile all .java files:
-```bash
-javac *.java
-```
-Run the main class (adjust based on your main class name if needed):
-```bash
-java BusArrival
-```
----
-
-📄 Example
-
-Suppose you want to manage a bus schedule:
-The program allows inserting new bus arrival times.
-It compares two arrival times to determine if they conflict.
-It handles invalid input and time formatting errors.
+The project highlights a transition into more complex software architecture, moving from basic scripts to organized, modular Java applications that passed all university-provided edge case testing.
 
 ---
 
-📈 Project Status
+## Features
 
-- Completed — passed all university-provided tests and edge case testing.
-- Final version published.
-- Release: Version 1.0
-
----
-
-🙋‍♂️ About the Project
-
-This project was created as part of university coursework.
-It focuses on strengthening Java skills, project organization, and working with real-world scheduling problems in programming.
+* **Arrival Management**: Track and manage multiple bus arrivals with precise time tracking.
+* **Conflict Detection**: Compare arrival times between different buses to identify and resolve scheduling overlaps.
+* **Dynamic Event Handling**: Handle arrival-related events dynamically within the system.
+* **Robust Validation**: Integrated error handling to manage invalid inputs and time formatting issues.
+* **Modular Architecture**: Built with a focus on clean, organized Java classes for better maintainability.
 
 ---
 
-📜 License
+## Tech Stack
 
-Open for educational and personal use.
+* **Language**: Java 8+
+* **Paradigm**: Object-Oriented Programming (OOP)
+* **Tools**: Java Compiler (javac), Git
+
+---
+
+## Lessons Learned
+
+Building this manager taught me:
+* **Object-Oriented Logic**: Designing modular classes that interact seamlessly to handle complex data.
+* **Defensive Programming**: Implementing comprehensive input validation to ensure system reliability.
+* **Algorithmic Efficiency**: Developing logic to compare times and handle events in real-time.
+* **Academic Rigor**: Meeting strict technical requirements and passing standardized university test suites.
+
+---
+
+## How to Run
+
+1.  Make sure you have **Java 8** or later installed.
+2.  Clone the repository and navigate into the project folder:
+    ```bash
+    git clone [https://github.com/OrAshry/BusArrivalTimeManager.git](https://github.com/OrAshry/BusArrivalTimeManager.git)
+    cd BusArrivalTimeManager
+    ```
+3.  Compile the source files:
+    ```bash
+    javac *.java
+    ```
+4.  Run the main application:
+    ```bash
+    java BusArrival
+    ```
+
+---
+
+## License
+
+This project was created for educational purposes and is open for personal use and further learning.
+
+---
+
+## Acknowledgments
+
+Developed as part of the Computer Science curriculum at the Open University of Israel.
